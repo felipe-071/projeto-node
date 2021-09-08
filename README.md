@@ -14,6 +14,13 @@ Escolher um editor eficiente (VsCode, Atom, SublimeText, NetBeans, WebStorm...) 
 ### Iniciar o arquivo de configuração package.json
 -> npm init -y
 
+## Configuração do NPM para instalação de pacotes (ESCOLA)
+npm set strict-ssl false
+npm config set registry https://registry.npmjs.org/
+
+## Configuração do Git/GitHub (ESCOLA)
+git config --global http.sslVerify false
+
 ### Instalação de dependências
 npm install "nome da tecnologia"
 Exemplo: 
